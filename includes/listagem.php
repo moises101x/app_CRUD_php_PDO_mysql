@@ -12,7 +12,7 @@ foreach ($vagas as $vaga) {
                             <a href="editar.php?id=' . $vaga->id . '">
                                 <button type="button" class="btn btn-primary">Editar</button>
                             </a>
-                            <a href="eexcluir.php?id=' . $vaga->id . '">
+                            <a href="excluir.php?id=' . $vaga->id . '">
                                 <button type="button" class="btn btn-danger">Excluir</button>
                             </a>
                         </td>
