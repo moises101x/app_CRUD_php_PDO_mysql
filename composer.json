@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/app_todo_php",
+  "description": "teste da maquina do bem",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "moises",
+      "email": "moisesfreitas00174@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
